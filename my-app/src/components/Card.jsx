@@ -4,21 +4,32 @@ import { useState } from 'react'
 
 function Card(props) {
   
- const {det,setDet} =useState(props)
+/*  const {det,setDet} =useState(props)
   const see =(props)=>{
-      setDet(props.dit)
-  }
+      setDet(!props.dit)
+  } */
+  const [showProps, setShowProps] = useState();
+  
+
+  const handleClick = () => {
+    setShowProps(!showProps);
+  };
   return (
     <>
      <div className="card">
       <div className="card-inner">
         
         <img src=''/>
-        <h2 className='card_title'> {props.title}{det} </h2>
+        <h2 className='card_title'> {props.title}</h2>
         <div className="about" >
           
-            <p className='card_des'>{props.des}</p>
-            <button onClick={see}>See Details</button>
+            <p className='card_des'>{props.des} {showProps && <p className='card_des'>{props.dit}</p>} </p>
+            <button  onClick={handleClick}>See Details</button>
+           
+            <div>
+      
+
+    </div>
         </div>
       </div>
       </div>   

@@ -14,23 +14,23 @@ function App() {
        img=''
        title='name2'
        des='description2'
-       dit='loremloremloremloremloremloremloremloremlorem'
+       dit='loremloremloremloremlorem'
       />
       <Card
       img=''
       title='name3'
       des='description3'
-      dit='loremloremloremloremloremloremloremloremlorem' />
+      dit='loremloremloremloremlorem' />
       <Card
       img=''
       title='name4'
       des='description4' 
-      dit='loremloremloremloremloremloremloremloremlorem'/>
+      dit='loremloremloremloremlorem'/>
       <Card
       img=''
       title='name5'
       des='description5'
-      dit='loremloremloremloremloremloremloremloremlorem' />
+      dit='loremloremloremloremlorem' />
 
    
     </div>
