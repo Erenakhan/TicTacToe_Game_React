@@ -1,0 +1,38 @@
+*{
+  
+}
+img{
+  width: 100px;
+  height: 150px;
+}
+
+.card_des{
+  width: 250px;
+  margin: auto;
+}
+.App{
+  
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height:100vh;
+}
+
+.card{
+  height: 350px;
+  border: 1px solid;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: gold;
+}
+button{
+  margin-top: 50px;
+  padding: 10px;
+  background-color: burlywood ;
+  border-radius: 10px;
+
+}
